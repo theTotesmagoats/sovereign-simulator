@@ -2,7 +2,7 @@
 Data Laundering Engine — Core simulation logic.
 
 This module simulates how scraping shadow data sources and laundering them
-creates hidden debt (audit_suspicion, ip_time_bomb) that explodes into
+creates hidden debt (audit_suspicion, IP_time_bomb) that explodes into
 second-order consequences (lawsuits, audits, churn).
 """
 

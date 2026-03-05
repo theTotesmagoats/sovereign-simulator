@@ -53,8 +53,7 @@ def main():
                 raise ValueError()
         except ValueError:
             print("❌ Invalid choice. Defaulting to Common Crawl.")
-            library_choice = ShadowLibrary.COMMON_CRAWL.value.__objclass__.__dict__.get('COMMON_CRAWL', None)
-            library_choice = 1  # fallback
+            library_choice = 1
 
         for i, method in enumerate(LaunderMethod):
             print(f"{i+1}. {method.value}")
